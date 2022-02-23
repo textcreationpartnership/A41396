@@ -1,0 +1,966 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Good and true, fresh and new Christmas carols</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1642</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A41396</idno>
+            <idno type="STC">Wing G1036</idno>
+            <idno type="STC">ESTC R21829</idno>
+            <idno type="EEBO-CITATION">12569331</idno>
+            <idno type="OCLC">ocm 12569331</idno>
+            <idno type="VID">63404</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A41396)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 63404)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 317:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Good and true, fresh and new Christmas carols</title>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>By E.P. for Francis Coles ...,</publisher>
+                  <pubPlace>Printed at London :</pubPlace>
+                  <date>1642.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Without the music.</note>
+                  <note>Illlustrated t.p.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Carols, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Sarah Wingo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Sarah Wingo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:63404:1"/>
+            <pb facs="tcp:63404:1" rendition="simple:additions"/>
+            <p>Good and True, Freſh and New Christmas Carols</p>
+            <lg>
+               <l>Now let true hearts together twine,</l>
+               <l>Where Modeſty with mirth doth joyne,</l>
+               <l>And let each Chriſtian werry make</l>
+               <l>For Ieſus Chriſt our Saviours ſake,</l>
+               <l>And for the bleſſed Saints which dy'd,</l>
+               <l>Who are in Heaven deify'd</l>
+            </lg>
+            <figure>
+               <figDesc>woodcut, virgin Mary holding holy infant with two cherubs</figDesc>
+            </figure>
+            <p>Printed at London by E. P. for Francis Coles, dwelling in the Old-Baily. 1642.</p>
+         </div>
+      </front>
+      <body>
+         <div type="Christmas_carols">
+            <pb facs="tcp:63404:2"/>
+            <pb facs="tcp:63404:2"/>
+            <head>Good and true, Freſh and New CHRISTMAS CAROLS.</head>
+            <div type="carol">
+               <head>A Caroll for Chriſtmas day: To the tune of <hi>Troy Towne.</hi>
+               </head>
+               <lg>
+                  <l>THe glorious Son of Heaven is up,</l>
+                  <l>cicering the clouds or ignorance,</l>
+                  <l>And for to ſave our Soules from Hell,</l>
+                  <l>which by old <hi>Adam</hi> was our chance;</l>
+                  <l>True God, a Saviour, Prophet, King,</l>
+                  <l>From heaven being ſent, good newes did bring.</l>
+               </lg>
+               <lg>
+                  <l>The holy Angell <hi>Gabriell</hi> came</l>
+                  <l>to bleſſed <hi>Mary</hi> meeke and mild,</l>
+                  <l>Saying all haile, thou full of grace,</l>
+                  <l>this day thou haſt conceiv'd a child,</l>
+                  <l>A Saviour to all Mankind ſure,</l>
+                  <l>She ſaid, I am a Virgin pure.</l>
+               </lg>
+               <pb facs="tcp:63404:3"/>
+               <lg>
+                  <l>This vertuous Virgin was betroth'd</l>
+                  <l>to righteous <hi>Joſeph</hi> at that time,</l>
+                  <l>Who then perceiving other ſwell.</l>
+                  <l>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ed thinke that ſhe had done a crime:</l>
+                  <l>To him the Angell <hi>Gabriell</hi> ſaid,</l>
+                  <l>Feare not thy wife, ſhe's a pure Maid.</l>
+               </lg>
+               <lg>
+                  <l>At that ſame time the Em<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>erour</l>
+                  <l>great tares on his Subjects layd.</l>
+                  <l>Man Woman, Child, where they were borne,</l>
+                  <l>muſt travell, where it muſt be payd;</l>
+                  <l>
+                     <hi>Joſeph</hi> and <hi>Mary</hi> then forth went,</l>
+                  <l>And many a weary ſtep they ſpent.</l>
+               </lg>
+               <lg>
+                  <l>At length to <hi>Bethelem</hi> they came,</l>
+                  <l>being a Village that was poore,</l>
+                  <l>Where as no bed was to be had,</l>
+                  <l>the Innes as then could hold no more;</l>
+                  <l>Within an Ore-ſtall ſhe did lye,</l>
+                  <l>And yet ſhe tooke it patiently.</l>
+               </lg>
+               <lg>
+                  <l>It pleaſed God that very morne,</l>
+                  <l>time came, ſhe ſhould delivered be,</l>
+                  <l>Where it did j<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y her gentle heart,</l>
+                  <l>her bleſſed Saviour to ſee;</l>
+                  <l>Now was ſhe Mother, Wife, and Maid,</l>
+                  <l>Who had the Lawes of God obey'd,</l>
+               </lg>
+               <pb facs="tcp:63404:3"/>
+               <lg>
+                  <l>No Midwives helpe ſhe there could have,</l>
+                  <l>no Swathing bands of Linnen pure,</l>
+                  <l>Nor dandling Nurſes her to helpe,</l>
+                  <l>yet ſhe moſt patient did endure,</l>
+                  <l>No golden Robe nor ſuch like things,</l>
+                  <l>Although he was the King of Kings.</l>
+               </lg>
+               <lg>
+                  <l>His Cradle there a Manger was,</l>
+                  <l>whereas the Aſſe and Oxe did feed,</l>
+                  <l>But there bright Angells did appeare,</l>
+                  <l>with harmony, as God decreed;</l>
+                  <l>A glorious Star did then appeare</l>
+                  <l>To certaine Shepheards that were neere.</l>
+               </lg>
+               <lg>
+                  <l>They wondring at this unknowne Star,</l>
+                  <l>at length from heaven a voyce they heard,</l>
+                  <l>Who bid them follow that ſame light,</l>
+                  <l>and wiſht them not to be affeard;</l>
+                  <l>Saying, in <hi>Bethelem</hi> this morne,</l>
+                  <l>A Saviour and a King is borne.</l>
+               </lg>
+               <lg>
+                  <l>King <hi>Herod</hi> hearing of the ſame,</l>
+                  <l>was vext at heart moſt cruelly,</l>
+                  <l>Who ſwore, all Children two yeares old,</l>
+                  <l>or under, every one ſhould dye;</l>
+                  <l>And he his bloody Souldiers ſent,</l>
+                  <l>Lo murder each poore Innocent.</l>
+               </lg>
+               <pb facs="tcp:63404:4"/>
+               <lg>
+                  <l>But God his malice to prevent,</l>
+                  <l>an Angell did to <hi>Joſeph</hi> ſend,</l>
+                  <l>And bid him take his Wife and Babe,</l>
+                  <l>and unto <hi>Ae<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ypt</hi> Land to w<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd;</l>
+                  <l>Where ſeven long yeares they did remaine,</l>
+                  <l>Till <hi>Herods</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>te by death was lane.</l>
+               </lg>
+               <lg>
+                  <l>Thus have you heard our Saviours birth,</l>
+                  <l>who for our wicked ſins did dye,</l>
+                  <l>For to redeeme our ſoules from death,</l>
+                  <l>to live with him eternally:</l>
+                  <l>A ioyfull Chriſtmas to all ſend,</l>
+                  <l>And thus my Caroll I doe end.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>An other for Chriſtmas day. To the tune of <hi>All you that are Good fellowes.</hi>
+               </head>
+               <lg>
+                  <l>ALl you that are good fellowes,</l>
+                  <l>come hearken to my Song,</l>
+                  <l>I know you doe not hate good cheere,</l>
+                  <l>nor Liquor that is ſtrong,</l>
+                  <l>I hope there is none here,</l>
+                  <l>but ſoone will rake my part,</l>
+                  <l>Seeing my Maſter and my Dame,</l>
+                  <l>ſayes, welcome with their heart.</l>
+               </lg>
+               <pb facs="tcp:63404:4"/>
+               <lg>
+                  <l>This is a time of ioyfulneſſe,</l>
+                  <l>and merry time of yecre,</l>
+                  <l>When as the rich with plenty ſtor'd,</l>
+                  <l>doth make the poore good cheere;</l>
+                  <l>Plum-poregde, Roaſt-beefe, and Minc'd-pies,</l>
+                  <l>ſtands ſmoaking on the boord,</l>
+                  <l>With other brave <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>arieties,</l>
+                  <l>our Maſter doth affoord.</l>
+               </lg>
+               <lg>
+                  <l>Our Miſtreſſe and her cleanly Maids,</l>
+                  <l>have neatly playd the Cookes,</l>
+                  <l>Me thinkes theſe diſhes eagerly</l>
+                  <l>at my ſharpe ſtomacke lookes;</l>
+                  <l>As though they were affraid,</l>
+                  <l>to ſee me draw my Blade,</l>
+                  <l>But I reveng'd on them will be,</l>
+                  <l>untill my ſtomack's ſtayd.</l>
+               </lg>
+               <lg>
+                  <l>Come fill us o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> the ſtrongeſt,</l>
+                  <l>ſmall drinke is out of date,</l>
+                  <l>Me thinks I ſhall fare like a Prince,</l>
+                  <l>and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>it in gallant ſtate;</l>
+                  <l>This is no Mizers Feaſt,</l>
+                  <l>although that things be deare,</l>
+                  <l>God grant the Founder of this Feaſt,</l>
+                  <l>each Chriſtmas keepe good cheere.</l>
+               </lg>
+               <pb facs="tcp:63404:5"/>
+               <lg>
+                  <l>This day for Chriſt we celebrate,</l>
+                  <l>who was borne at this time,</l>
+                  <l>For which all Chriſtians ſhould rejoyce,</l>
+                  <l>and I doe ſing in Rime:</l>
+                  <l>When you have given God thankes,</l>
+                  <l>unto your dainties fall,</l>
+                  <l>Heavens bleſſe my Maſſ<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> and my Daine</l>
+                  <l>Lord bleſſe me, and you all.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A Caroll for Saint <hi>Stevens</hi> day. To the tune of, <hi>Wigmores Galliard.</hi>
+               </head>
+               <lg>
+                  <l>I Thinke none here but they have heard</l>
+                  <l>the malice of the Iewes,</l>
+                  <l>And <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ow the Saints of Ieſus Chriſt</l>
+                  <l>they did abuſe and uſe;</l>
+                  <l>This day for ſwéet Saint <hi>Stev<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n</hi> ſake</l>
+                  <l>we now doe celebrate,</l>
+                  <l>Who did profeſſe the faith of Chriſt,</l>
+                  <l>for which they did him hate.</l>
+               </lg>
+               <lg>
+                  <l>The Word of God ſo them he taught,</l>
+                  <l>for which they did him kill,</l>
+                  <l>Who like a Lambe he then did dye,</l>
+                  <l>and never thought them ill;</l>
+                  <l>One of Chriſts followers was he,</l>
+                  <l>and firſt that martir<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d was</l>
+                  <pb facs="tcp:63404:5"/>
+                  <l>After our bleſſed Saviour</l>
+                  <l>did ſuffer on the Croſſe.</l>
+               </lg>
+               <lg>
+                  <l>For they with great affliction</l>
+                  <l>moſt vtidly did him uſe,</l>
+                  <l>They ſaid he ſow<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d ſedition,</l>
+                  <l>and therefore him accuſe;</l>
+                  <l>Vnto a Stake they did him tye,</l>
+                  <l>both armes and legs with cords,</l>
+                  <l>Becauſe he told them of their ſinnes,</l>
+                  <l>they gave him cruell words.</l>
+               </lg>
+               <lg>
+                  <l>Like bloody cruell minded men,</l>
+                  <l>at him they threw huge ſtones,</l>
+                  <l>They bruſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d his fleſh, beare out his braines,</l>
+                  <l>and breaketh all his bones:</l>
+                  <l>But ere he di'd, to heaven above</l>
+                  <l>he lifted up his tyes,</l>
+                  <l>And praied to God he would forgive</l>
+                  <l>his cruell Enemies</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>An other merry Carrell, for the ſame day. To the tune of, <hi>Bonny ſweet Rohin.</hi>
+               </head>
+               <lg>
+                  <l>COme mad Boy<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s, be glad Boyes, for Chriſtmas is heere</l>
+                  <l>And we ſhal be feaſted with iolly good chéer</l>
+                  <pb facs="tcp:63404:6"/>
+                  <l>Then let us be merry, tis Saint S<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>s day,</l>
+                  <l>Lets eate and drink frée ly, her's nothing do pay.</l>
+               </lg>
+               <lg>
+                  <l>My Maſter bids welcame, &amp; ſo doth my Dame,</l>
+                  <l>And 'tis yonder ſmoking diſh doch me inſtante,</l>
+                  <l>Anon Ile be with you, though, you me, outface,</l>
+                  <l>For now I doe tell you I have time and place:</l>
+               </lg>
+               <lg>
+                  <l>Ile troule the boule to you, them let it go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> round,</l>
+                  <l>My héels are ſo light they can ſtand on no groad<g ref="char:cmbAbbrStroke">̄</g>d.</l>
+                  <l>My congue it doth chater. &amp; goes pitter patter,</l>
+                  <l>Heet's good chéer and ſtrong béer, for I wil not flatter.</l>
+               </lg>
+               <lg>
+                  <l>And now for remembrance of bleſſed S. <hi>Stephen,</hi>
+                  </l>
+                  <l>Let's ioy at morn<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>, at noone and at evening,</l>
+                  <l>Then leave of your <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ineing &amp; fal to mince pies</l>
+                  <l>I pray take my counſell, be ruld by the wiſe.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A Caroll for Saint Iohns day. To the tune of, <hi>Flying fame:</hi>
+               </head>
+               <lg>
+                  <l>
+                     <hi>IOhn</hi> ſignifies the grace of God,</l>
+                  <l>then unto God lets pray,</l>
+                  <l>That he will ſtill direct our pathes</l>
+                  <l>and guide us in his way,</l>
+               </lg>
+               <pb facs="tcp:63404:6"/>
+               <lg>
+                  <l>
+                     <hi>Iohn</hi> Baptiſ'd Chriſt in <hi>Iordan</hi> flood,</l>
+                  <l>true baptiſme for to take,</l>
+                  <l>And for to waſh away our ſinnes,</l>
+                  <l>the old law to forſake.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Herod</hi> the King he married</l>
+                  <l>his Brother <hi>Phillips</hi> wife,</l>
+                  <l>Saint <hi>Iohn</hi> rebuking him therefore,</l>
+                  <l>it coſt his deareſt life,</l>
+                  <l>He told them 'twas a deadly ſin,</l>
+                  <l>and that it was full evill,</l>
+                  <l>Then <hi>Herod</hi> ſaid he was poſſeſt</l>
+                  <l>by an infernall Devill,</l>
+               </lg>
+               <lg>
+                  <l>And ſtraight in Priſon him he caſts,</l>
+                  <l>laſt bound in iron chain<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s,</l>
+                  <l>Where he in hunger, cold and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oe,</l>
+                  <l>a many dayes remaines;</l>
+                  <l>M<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ane whi<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> the birth day of the King</l>
+                  <l>it was ſolemniſed,</l>
+                  <l>But unto <hi>Iohn</hi> it fatall was,</l>
+                  <l>for then he loſt his head.</l>
+               </lg>
+               <lg>
+                  <l>Great banqueting and feaſting then</l>
+                  <l>prepared was that day,</l>
+                  <l>And ſeverall ſorts of muſick ſwéete</l>
+                  <l>melodiouſly did play;</l>
+                  <l>A dainty Damſell nearly danc't.</l>
+                  <l>which pleaſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d the King ſo well,</l>
+                  <pb facs="tcp:63404:7"/>
+                  <l>Which raviſhed his ſences ſo,</l>
+                  <l>in love with her he ſell.</l>
+               </lg>
+               <lg>
+                  <l>Faire dame quoth he aſke any thing,</l>
+                  <l>of me thou ſhalt it have;</l>
+                  <l>An't p<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ſe your Mateſty (ſhe ſaid)</l>
+                  <l>
+                     <hi>John</hi> Baptiſts head I crave;</l>
+                  <l>Which he did grant, and then ſtraight way</l>
+                  <l>his head to her was brought,</l>
+                  <l>In a large platter her to pleaſe,</l>
+                  <l>ſuch miſchiefe then ſhe wrought.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A merry Caroll for the ſame day. To the tune of, <hi>the Kings going to Bulleine.</hi>
+               </head>
+               <lg>
+                  <l>COme bravely on my Maſters,</l>
+                  <l>For here we ſhall be taſters,</l>
+                  <l>of curious diſhes that are brave and fine,</l>
+                  <l>Where they that d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e ſuch cheere afford,</l>
+                  <l>Ile lay my knife upon the board,</l>
+                  <l>my maſter and my dame they dor not pine.</l>
+               </lg>
+               <lg>
+                  <l>Who i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt will not be merry?</l>
+                  <l>And ſing downe downe aderry,</l>
+                  <l>for now it is a time of joy and mirth,</l>
+                  <pb facs="tcp:63404:7"/>
+                  <l>Tis ſaid, tis merry in the Hall</l>
+                  <l>When as beards they doe wa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> all,</l>
+                  <l>Gods plen is here, it doth not <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ew a death.</l>
+               </lg>
+               <lg>
+                  <l>Let him take all liv<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s longeſt,</l>
+                  <l>Come fill us of <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>,</l>
+                  <l>and I wi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>l drinke a health to honeſt <hi>John.</hi>
+                  </l>
+                  <l>Come pray thee But<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>r fill the bow<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e,</l>
+                  <l>And let it round the Table trole</l>
+                  <l>when that is up Ile tell you more anone.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A Caroll for Innocents day. To the tune of, <hi>As at none Duleins rested.</hi>
+               </head>
+               <lg>
+                  <l>GHis was the day when cruell <hi>Herod</hi>
+                  </l>
+                  <l>heard that Ieſus Chriſt was borne,</l>
+                  <l>(A King, a Saviour and a P<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>het)</l>
+                  <l>in his Land did chinke it ſcorne;</l>
+                  <l>Command did give</l>
+                  <l>He ſhould no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> live,</l>
+                  <l>And more his malice to unfold,</l>
+                  <l>Streight charge did give,</l>
+                  <l>No Male ſhould live</l>
+                  <l>The which were under two yeares old.</l>
+               </lg>
+               <lg>
+                  <l>His bloody Senidiers went to murde<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>each poore filly Innocent,</l>
+                  <pb facs="tcp:63404:8"/>
+                  <l>But God in Heaven which all things ſéeth,</l>
+                  <l>did his malice <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ooue prevent;</l>
+                  <l>An Angell there</l>
+                  <l>Then did appeare</l>
+                  <l>To <hi>Joſeph,</hi> and did him command,</l>
+                  <l>With his deare Mate</l>
+                  <l>And Baby ſtreight,</l>
+                  <l>With ſpeed to flye to <hi>Aegypt</hi> Land.</l>
+               </lg>
+               <lg>
+                  <l>Now what great ferrour twas to Mothers</l>
+                  <l>children ſucking at their breſt</l>
+                  <l>Broody villaines with their Poniards,</l>
+                  <l>from their Mothers nipple wreſt,</l>
+                  <l>In peeces there</l>
+                  <l>They did them teare,</l>
+                  <l>And with their Swords they did them hew,</l>
+                  <l>As tis expreſt,</l>
+                  <l>Among the reſt,</l>
+                  <l>King <hi>Herods</hi> young ſon had his due.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A merry Caroll for the ſame day. To the tune of, <hi>the Spaniſh Pavin.</hi>
+               </head>
+               <lg>
+                  <l>CAſt care away, tis Holyday,</l>
+                  <l>This is no time to worke, but play,</l>
+                  <l>With this good chéerd Ile make a fray,</l>
+                  <l>and meane to fill my belly;</l>
+                  <pb facs="tcp:63404:8"/>
+                  <l>And quickly for to end the ſtrife,</l>
+                  <l>I with my ſpoone and with my knife,</l>
+                  <l>Doe meane to keepe a heavy life,</l>
+                  <l>I tell yée.</l>
+               </lg>
+               <lg>
+                  <l>By er leave good Maſter and good Dame,</l>
+                  <l>For this <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ent I h<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ther came,</l>
+                  <l>I ſee here's nothing out of frame,</l>
+                  <l>and many than<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es I give you,</l>
+                  <l>I here am come as a bold Gueſt,</l>
+                  <l>And know I me welcome to your Feaſt,</l>
+                  <l>Whereas your love it is expreſt</l>
+                  <l>moſt freely.</l>
+               </lg>
+               <lg>
+                  <l>And now my Friends and Neighbours all,</l>
+                  <l>Your cheere and beere it is not ſmall,</l>
+                  <l>And bold'y to your victuals fall,</l>
+                  <l>by leave, I give you warning;</l>
+                  <l>I now will drinke a full carouſe</l>
+                  <l>Vnto the Owners of this houſe,</l>
+                  <l>And for our foes care not a Louſe;</l>
+                  <l>nor farthing.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A Caroll for New-yeares day. To the tune of, <hi>Greene Sleeves.</hi>
+               </head>
+               <lg>
+                  <l>THe old yeare now away is fied,</l>
+                  <l>The new yeare it is entered,</l>
+                  <pb facs="tcp:63404:9"/>
+                  <l>Then let us now our ſins downe tread,</l>
+                  <l>and ioyfu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ly all appeare,</l>
+                  <l>Let<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s merry be this Holyday,</l>
+                  <l>And let us now both ſport and play,</l>
+                  <l>Hang ſorrow, let's caſt care away,</l>
+                  <l>God ſend you a happy new yeare.</l>
+               </lg>
+               <lg>
+                  <l>For Chriſts Circumciſion this day we keepe,</l>
+                  <l>Who for our ſins did often weepe,</l>
+                  <l>His hands and feet were wounded deepe,</l>
+                  <l>and his bleſſed ſide with a Speare,</l>
+                  <l>His head they crowned then with Thorne,</l>
+                  <l>And at him they did laugh and ſcor<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e,</l>
+                  <l>Who for to ſave our Soules was borne,</l>
+                  <l>God ſend us a merry new yeare.</l>
+               </lg>
+               <lg>
+                  <l>And now with New-yeares Gifts each Friend,</l>
+                  <l>Vnto each other they doe ſend,</l>
+                  <l>God grant we may all our lives amend,</l>
+                  <l>and that the truth may appeare;</l>
+                  <l>Now like the Snake caſt off your skin</l>
+                  <l>Of evill thoughts and wicked ſin,</l>
+                  <l>And to amend this new yeare begin.</l>
+                  <l>God ſend us a merry new yeare.</l>
+               </lg>
+               <lg>
+                  <l>And now let all the company</l>
+                  <l>In ſecondly manner all agree,</l>
+                  <pb facs="tcp:63404:9"/>
+                  <l>For we are here welcome all may ſee</l>
+                  <l>unto this folly good cheere;</l>
+                  <l>I thanke my Maſter and my Dame,</l>
+                  <l>The which are founders of the ſame,</l>
+                  <l>To eate to drinke now is no ſhame,</l>
+                  <l>God ſend us a merry new yeare.</l>
+               </lg>
+               <lg>
+                  <l>Come Lads and Laſſes every one,</l>
+                  <l>
+                     <hi>Iack, Tom, Dick, Beſſe, Mary</hi> and <hi>Ione,</hi>
+                  </l>
+                  <l>Lets cut the meate up unto the bone,</l>
+                  <l>for welcome you need not feare,</l>
+                  <l>And here for good liquor we ſhall not lack,</l>
+                  <l>It will whet my braines &amp; ſtrengthen my back</l>
+                  <l>This ioylly good cheere it muſt goe to wrack,</l>
+                  <l>God ſend us a merry new yeare.</l>
+               </lg>
+               <lg>
+                  <l>Come give's more liquor when I doe call,</l>
+                  <l>Ile drinke to each one in this Hall,</l>
+                  <l>I hope that ſo loud I muſt not baule,</l>
+                  <l>but unto me lend an eare;</l>
+                  <l>Good fortune to n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y maſter ſend,</l>
+                  <l>And to my dame which is our friend,</l>
+                  <l>Lord bleſſe us all, and ſo I end,</l>
+                  <l>and God ſend us a happy new yeare.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A Caroll for Twelfe day. To the tune of, <hi>the Ladies fall.</hi>
+               </head>
+               <lg>
+                  <l>MArke well my heavy dolefull tale,</l>
+                  <l>for Twelfe day now is come,</l>
+                  <pb facs="tcp:63404:10"/>
+                  <l>And now I muſt no longer <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ng,</l>
+                  <l>and ſay no words but mum,</l>
+                  <l>For I perforce muſt take my leave,</l>
+                  <l>of all my dainty cheere,</l>
+                  <l>Plum Porredge, Roſt Béefe, and Mine'd Pies,</l>
+                  <l>my ſtrong Ale and my Beere.</l>
+               </lg>
+               <lg>
+                  <l>Kind hearted Chriſtmas now adiew,</l>
+                  <l>for I with thee muſt part,</l>
+                  <l>And for to take my leave with thee,</l>
+                  <l>doth grieve me at the heart:</l>
+                  <l>Thou wert an ancient Houſekéeper,</l>
+                  <l>and mi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>th with meat didſt kéepe,</l>
+                  <l>But thou art going out of towne,</l>
+                  <l>which makes me for to wéepe.</l>
+               </lg>
+               <lg>
+                  <l>God knoweth whether I againe</l>
+                  <l>thy merry face ſhall ſee,</l>
+                  <l>Which to Good-fellowes and the Poore</l>
+                  <l>that was ſo franke and free,</l>
+                  <l>Thou lovedſt paſtime with thy heart</l>
+                  <l>and eke good company;</l>
+                  <l>Pray hold me up for feare I ſwound,</l>
+                  <l>for I am like to dye.</l>
+               </lg>
+               <lg>
+                  <l>Come Butler fill a Brin<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ner full,</l>
+                  <l>to cheere my fainting heart,</l>
+                  <l>That to old Chrſtmas I may drinke,</l>
+                  <l>before he doth depart;</l>
+                  <pb facs="tcp:63404:10"/>
+                  <l>And let each one that's in this roome,</l>
+                  <l>with me likewiſe condole,</l>
+                  <l>And for to cheere their ſpirits ſad,</l>
+                  <l>let each one drinke a boule.</l>
+               </lg>
+               <lg>
+                  <l>And when the ſame it hath gon round,</l>
+                  <l>then fall unto your cheere,</l>
+                  <l>For you doe know that Chriſtmas time,</l>
+                  <l>it comes but once a yeare;</l>
+                  <l>But this good draught which I have drank,</l>
+                  <l>hath comforted my heart,</l>
+                  <l>For I was very fearfull that</l>
+                  <l>my ſtomack would depart.</l>
+               </lg>
+               <lg>
+                  <l>Thanks to my Maſter and my Dame,</l>
+                  <l>that doth ſuch cheere afford,</l>
+                  <l>God bleſſe them, that each Chriſtmas they</l>
+                  <l>may furniſh thus their board;</l>
+                  <l>My ſtomack being come to me,</l>
+                  <l>I meane to have a bout,</l>
+                  <l>Intending to eat moſt heartily,</l>
+                  <l>good friends I doe not floute.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <head>A merry Caroll for the ſame day. To the tune of, <hi>The Spaniſh Gipſies.</hi>
+               </head>
+               <lg>
+                  <l>COme follow follow me,</l>
+                  <l>Thoſe that Good fellowes be,</l>
+                  <l>Into the Butterie,</l>
+                  <l>Our manhood for to try,</l>
+                  <pb facs="tcp:63404:11"/>
+                  <l>The Maſter keepes a bounteous houſe</l>
+                  <l>And gives leave freely to carouſe.</l>
+               </lg>
+               <lg>
+                  <l>Then wherefore ſhould we feare,</l>
+                  <l>Séeing here is ſtore of chéere,</l>
+                  <l>It ſhewes but cowardiſe,</l>
+                  <l>At this time to be nice,</l>
+                  <l>Then boldly draw your blades and fight</l>
+                  <l>For we ſhall have a merry night.</l>
+               </lg>
+               <lg>
+                  <l>When we have done this fray,</l>
+                  <l>Then we will goe to play</l>
+                  <l>At Cardes, or elſe at D<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ee,</l>
+                  <l>And be rich in a trice;</l>
+                  <l>Then let the kneves go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> round a pace,</l>
+                  <l>I hope each time to have an Ac<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</l>
+               </lg>
+               <lg>
+                  <l>Come Maids let's want no B<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>re</l>
+                  <l>After our Chriſtmas cheere.</l>
+                  <l>And I will only crave</l>
+                  <l>Good Huſbands you may have,</l>
+                  <l>And that you may good houſes keepe,</l>
+                  <l>Where we may drink carouſes deepe.</l>
+               </lg>
+               <lg>
+                  <l>A<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> when that's ſpeat the day.</l>
+                  <l>Where Chriſtmas Camb<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ls play,</l>
+                  <l>A<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Hotcochles beſide,</l>
+                  <l>And then goe to All <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>de,</l>
+                  <l>With many other pretty <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oyes,</l>
+                  <l>Men, women, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>outhes, maids, girles, and b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>yes.</l>
+               </lg>
+               <pb facs="tcp:63404:11"/>
+               <lg>
+                  <l>Come leſs dance round the Hall,</l>
+                  <l>And let's for liquor call,</l>
+                  <l>Put Apples in the fire</l>
+                  <l>Swéet Maids I you deſire,</l>
+                  <l>And let a Boule be ſpiced well,</l>
+                  <l>Of nappy ſtuffe that doth excell.</l>
+               </lg>
+               <lg>
+                  <l>Twelve dayes we now have ſpent</l>
+                  <l>In mirth and merriment,</l>
+                  <l>And daintily did fare,</l>
+                  <l>For which we tooke no care,</l>
+                  <l>But now I ſadly call to mind</l>
+                  <l>What daies of ſorrow are behind,</l>
+               </lg>
+               <lg>
+                  <l>We muſt leave off to play,</l>
+                  <l>To mo<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ow's working day,</l>
+                  <l>According to each calling,</l>
+                  <l>Each man muſt now be falling,</l>
+                  <l>And ply his buſineſſe all the yeare,</l>
+                  <l>Next Chriſtmas for to eate good chéere.</l>
+               </lg>
+               <lg>
+                  <l>No<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> of my Maſter kind</l>
+                  <l>Good welcome I did find.</l>
+                  <l>And of my loving Miſtrife</l>
+                  <l>This merry time of Chriſtmas,</l>
+                  <l>For which to them great thanks I give,</l>
+                  <l>God grant they long together live.</l>
+               </lg>
+            </div>
+            <div type="carol">
+               <pb facs="tcp:63404:12"/>
+               <head>A modeſt Caroll for any of the Twelve dayes, or to be ſung at any time of the yeere.</head>
+               <head type="sub">To the Tune of, <hi>In the merry Maying time.</hi>
+               </head>
+               <lg>
+                  <l>
+                     <hi>A</hi> Dozen of good Points Ile give,</l>
+                  <l>The which will laſt you while you live.</l>
+               </lg>
+               <lg>
+                  <head>1</head>
+                  <l>One God there is of Glory might,</l>
+                  <l>One Faith to guide our Soules aright,</l>
+                  <l>One Truth that Errors doe deſcry,</l>
+                  <l>One Baptiſme to know Chriſtians by.</l>
+               </lg>
+               <lg>
+                  <head>2</head>
+                  <l>Two Teſtaments, the Old and New,</l>
+                  <l>Where Law and Goſpel thou mayſt view:</l>
+                  <l>The firſt, for Déeds doth Precepts give;</l>
+                  <l>The other, we by Faith ſhall live.</l>
+               </lg>
+               <lg>
+                  <head>3</head>
+                  <l>Thrée Perſons in the Trinitie,</l>
+                  <l>One God in perfect Vnitie,</l>
+                  <l>The Father, Sonne, and Holy Ghoſt,</l>
+                  <l>The which doth rule the Heavenly Hoſt.</l>
+               </lg>
+               <lg>
+                  <head>4</head>
+                  <l>Foure bleſſed Sanctified Men,</l>
+                  <l>For our Salvation, that did Pen</l>
+                  <pb facs="tcp:63404:12"/>
+                  <l>Our Saviours Birth, his Life, and Death,</l>
+                  <l>And how we ſhould be ſav<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d by Faith.</l>
+               </lg>
+               <lg>
+                  <head>5</head>
+                  <l>Five Senſes every Man containes,</l>
+                  <l>As Governours that rules and raignes,</l>
+                  <l>Thy Hearing, Séeing, Féeling, Taſt,</l>
+                  <l>And Smelling (Death ſpoyles all at laſt.)</l>
+               </lg>
+               <lg>
+                  <head>6</head>
+                  <l>Six dayes thou haſt to labour in,</l>
+                  <l>So mercifull thy God hath bin,</l>
+                  <l>Of ſeven, he doth take but one;</l>
+                  <l>Oh rob him not, and leave him none.</l>
+               </lg>
+               <lg>
+                  <head>7</head>
+                  <l>Seven Arts and Sciences there are,</l>
+                  <l>As <hi>Rethorique,</hi> and the <hi>Grammar,</hi>
+                  </l>
+                  <l>With <hi>Logick, Muſick, Geometry,</hi>
+                  </l>
+                  <l>
+                     <hi>Arithmetick, Aſtronomy.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>8</head>
+                  <l>Eight perſons in the Arke of <hi>Noahs</hi>
+                  </l>
+                  <l>Were ſav'd, when God the reſt deſtroyes,</l>
+                  <l>For all the World beſides were drown'd,</l>
+                  <l>Onely thoſe eight he righteous found.</l>
+               </lg>
+               <lg>
+                  <head>9</head>
+                  <l>Nine Muſes, like the Heavens nine Spheares;</l>
+                  <l>To ioy each mans inclining eares,</l>
+                  <l>Chearing each melancholy mind,</l>
+                  <l>The which to ſorrow is inclin'd.</l>
+               </lg>
+               <gap reason="illegible: missing" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
